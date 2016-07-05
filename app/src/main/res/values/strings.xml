@@ -1,0 +1,434 @@
+<resources>
+    <string name="app_name">GapQuiz</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_gap">AboutGap</string>
+    <string name="aboutGapQuiz">
+        About Gap Quiz
+    </string>
+
+    <string name="Paragraph1">
+        This quiz has been developed to allow you to test your understanding of a wide range of
+        issues relating to Good Academic Practice. In particular the quiz allows you to demonstrate
+        your awareness of:
+    </string>
+    <string name="Paragraph2">
+        &#8226;what is meant by the term plagiarism \n
+        &#8226;what is deemed to be acceptable and unacceptable academic practice \n
+        &#8226;how to correctly cite and reference different source material \n
+        &#8226;how good academic practice, including different learning strategies and study skills,
+        can help you to avoid plagiarising other people’s work and so become an effective learner.
+    </string>
+    <string name="paragraph3">
+        The questions are all at an introductory level, which means they are suitable for anyone
+        studying at higher education level. You may find it useful to repeat the quiz at key points
+        in your studies (e.g. before you submit each piece of coursework).
+    </string>
+    <string name="title_activity_start_quiz">StartQuiz</string>
+
+    <string name="quizIntroTitle">
+        INTRODUCTORY LEVEL: GOOD ACADEMIC PRACTICE QUIZ
+    </string>
+
+    <string name="quizIntro">
+        There is no limit to the number of times you can attempt this quiz and you will find that
+        the questions change each time you try it. You must leave a gap of a week between each
+        attempt at the quiz. \n
+        You should submit your answer to each question and read the feedback provided before moving
+        on to the next question. As you complete each question, a coloured bar will appear.
+        Correct answers are shown by a green bar, partially correct answers by an amber bar and
+        incorrect answers by a red bar.\n
+
+        You can have multiple attempts at some questions, but you will lose marks for each attempt
+        at a question that is incorrect.\n
+
+        Use the \'Next\' link at the bottom of each question to move to the next question. When you
+        have completed the quiz, click \'Submit all and finish\' in order to receive your score and
+        review your answers.
+    </string>
+
+    <string name="title_activity_question1">
+        This is an introductory level question on \'Collaboration versus collusion\'.
+    </string>
+
+    <string name="question1Instruction">
+        Read the following definitions and decide whether they are descriptions of collaboration
+        or collusion. (Select the appropriate term from the drop-down list.)
+    </string>
+
+    <string name="question1a">
+        Working closely with one or more students to allow you all to practise and develop your
+        understanding of a particular topic or skill
+    </string>
+
+    <string name="question1b">
+        Working closely with one or more students to personally gain or give someone else an unfair
+        advantage over other students
+    </string>
+
+    <string name="question1c">
+        Asking another student to help you with the specific answer to an assignment question
+    </string>
+
+    <string name="question1d">
+        Joining a study group in which you discuss different aspects of the course and how to
+        approach tasks within the assignments
+    </string>
+
+    <string name="question1e">
+        Posting the exact course references needed to answer an assignment task on the course forum
+    </string>
+
+
+    <string name="Q2Intro">
+        This is an introductory level question on \'Common knowledge\'.
+    </string>
+    <string name="Q2Instruct">
+        Read the following statement and decide whether it is true or false.
+    </string>
+    <string name="Q2">
+        For one of your assignment questions you need to summarise some group work from an online
+        activity. You decide to include a few select quotes from messages posted to the course
+        forum from different students. As these messages are all public (as far as the course is
+        concerned), they represent common knowledge, so do not need to be referenced.\n
+
+        Select one:
+    </string>
+    <string name="title_activity_question2">Question2</string>
+
+    <string name="Q3">
+        You do not need to reference information that is recognised as common knowledge within a
+        specific subject area. \n
+        Select one:
+    </string>
+    <string name="title_activity_question3">Question3</string>
+
+    <string name="source">
+        This question was designed by Coventry University.
+    </string>
+    <string name="Q4Intro">
+        This is an introductory level question on \‘Citing and referencing\’.
+    </string>
+    <string name="Q4Instruct">
+        In general, academics and students in the United Kingdom use a range of styles for citing
+        and referencing the work of other people in their academic writing.
+    </string>
+    <string name="Q4">
+        Coventry University has developed a policy that all students of the University should
+        follow when writing in-text citations and the List of References for their assignments.
+        Which one of the following options describes the policy at Coventry University?
+        \n Select one:
+    </string>
+    <string name="optionAQ4">
+        a. You must always use the conventions described in the Coventry University Harvard
+        Reference Style Guide
+    </string>
+    <string name="optionBQ4">
+        b. You can make up your own style for citing and referencing
+    </string>
+    <string name="optionCQ4">
+        c. You should use the conventions described in the Coventry University Harvard Reference
+        Style Guide, unless your Module tutor requires you to use an alternative style
+    </string>
+    <string name="optionDQ4">
+       d. You must use a recognised style, but you can use a mixture of styles within an assignment
+    </string>
+    <string name="optionEQ4">
+        e. As long as you use an automated referencing system, such as RefWorks, the style does not
+        matter Incorrect
+    </string>
+
+    <string name="sourceQ5">
+        Colin Neville, The Complete Guide to Referencing and Avoiding Plagiarism, Ó 2007,
+        Reproduced with the kind permission of Open University Press.  All rights reserved.
+    </string>
+    <string name="Q5Instruct">
+        To test your understanding of when to cite and reference, look at the following situations
+        that can occur when writing assignments.
+    </string>
+    <string name="Q5">
+        Which ones require an in-text citation and an entry in the List of References?
+    </string>
+    <string name="optionAQ5">
+        a. When stating or summarising common knowledge or obvious facts, and when there is unlikely
+        to be any significant disagreement with your statements or summaries.
+    </string>
+    <string name="optionBQ5">
+        b. When you include tables, photographs, statistics and diagrams, produced by other authors,
+        in your assignment.
+    </string>
+    <string name="optionCQ5">
+        c. To give weight or credibility to an argument.
+    </string>
+    <string name="optionDQ5">
+        d. When paraphrasing or summarising (in your own words) another person’s work that you feel
+        is particularly significant, or likely to be a subject of debate.
+    </string>
+
+    <string name="Q6">
+        Statement: To indicate that a section of your writing contains a short quotation taken from
+        another source, you should place it in quotation marks, insert an in-text citation at the
+        end of the quotation, for example, (Fowler 2008: 45), and include the full reference at the
+        end of your coursework.\n
+        Select one:
+    </string>
+
+    <string name="Q7Intro">
+        This is an introductory level question on ‘Why students plagiarise’.
+    </string>
+     <string name="Q7Instruct">
+       Select one from the scenarios below.
+    </string>
+    <string name="Q7">
+        In which of the following scenarios might it be valid for a student to use the work (words,
+        ideas, images, data etc.) of other people without acknowledging the original source?\n
+        Select one:
+    </string>
+    <string name="optAQ7">
+        a. The student has run out of time to complete the coursework properly
+    </string>
+    <string name="optBQ7">
+        b. The student believes that paraphrasing an expert’s words would be too difficult as well
+        as disrespectful
+    </string>
+    <string name="optCQ7">
+        c. Another student has given the student a copy of their work before the deadline. The
+        student copies it and submits it as his or her own coursework
+    </string>
+    <string name="optDQ7">
+        d. The student does not understand how to cite and reference
+    </string>
+    <string name="optEQ7">
+        e. The student knows that essays can be purchased on the Internet and that other students
+        are buying and using them. S/he decides to submit a purchased essay
+    </string>
+    <string name="optFQ7">
+        f. None of the above reasons are valid
+    </string>
+
+    <string name="Q8Instruct">
+        Select all that apply.
+    </string>
+    <string name="Q8">
+        Which of the following approaches can help a student avoid plagiarising other materials?\n
+        Select one more
+    </string>
+    <string name="optAQ8">
+         a. Developing good note-taking skills
+    </string>
+    <string name="optBQ8">
+        b. Making notes in your own words rather than copying directly from source materials
+    </string>
+    <string name="optCQ8">
+        c. Not discussing the exact answers to questions with other students
+    </string>
+    <string name="optDQ8">
+        d. Clearly separating directly copied phrases or sentences from a source, by placing them
+        in \'quotation marks\' and adding an in-text citation immediately afterwards
+    </string>
+    <string name="optEQ8">
+        e. Cutting and pasting information from different sources into your answer, which you plan 
+        to rephrase later
+    </string>
+
+    <string name="Q9Intro">
+        This is an introductory level question on \'What is good academic practice?\'
+    </string>
+    <string name="Q9Instruct">
+        Read the following scenario:
+    </string>
+    <string name="Q9">
+        <b>Scenario</b>: A student is struggling with some of the questions in his next assignment,
+        so decides to post each question on a study chat site he\'s found useful in the past when
+        he\'s needed information on a wide range of topics.\n
+
+        The next day, three responses have been posted to one question along with two answers to
+        the other two questions. He chooses what he thinks are the best responses for each question,
+        and pastes them directly into his assignment to create his final assignment answers. \n
+
+        This scenario is an example of <i>good academic practice</i>.Is this statement true or false?\n
+
+        Select one:
+    </string>
+
+    <string name="Q10Instruct">
+        From the descriptions below, tap and drop the appropriate word that matches each.
+    </string>
+    <string name="Q10A">
+        Working appropriately with one or more students to help you practise and develop your
+        understanding.
+    </string>
+    <string name="Q10B">
+        Something that is widely known within your subject area and can be attributed to a number
+        of sources
+    </string>
+    <string name="Q10C">
+        Presenting someone else\'s words or ideas (intentionally or not) as your own work in order
+        to gain personal benefit.
+    </string>
+    <string name="Q10D">
+        Working inappropriately with one or more students to gain or give an unfair advantage, e.g.
+        jointly answering assignment questions rather than working individually.
+    </string>
+    <string name="Q10E">
+        Providing the full details (author, title, etc.) of the source material used in your work,
+        normally presented as a list at the end of your coursework
+    </string>
+    <string-array name="opt1">
+        <item>Select one...</item>
+        <item>Collaboration</item>
+        <item>Collusion</item>
+    </string-array>
+
+    <string name="title_activity_question11"></string>
+    <string name="Q11Instruct">
+        Select one or more:
+    </string>
+    <string name="Q11">
+        Which of the following options are examples of unacceptable collusion? (Select all that
+        apply.) \n
+    </string>
+    <string name="Q11A">
+        a. Sending your final answers to a friend who has fallen behind with their studies and
+        needs some tips on how to complete the assignment
+    </string>
+    <string name="Q11B">
+        b. Deciding to jointly write up a group activity with the other members of the group even
+        though you have been told to do this individually
+    </string>
+    <string name="Q11C">
+        c. Asking a friend who did the course last year to proofread your assignment and then
+        incorporating all the changes and additions they have made
+    </string>
+    <string name="Q11D">
+        d. Discussing general approaches to answering an assignment question with one or more
+        students, but without describing the actual answer
+    </string>
+    <string name="Q11E">
+        e. Directing another student to appropriate sections in the course books that should help
+        them when completing the next assignment
+    </string>
+    <string name="Q11F">
+        f. Asking another student for some general advice and guidance on how to approach an
+        assignment question
+    </string>
+    <string name="Q11G">
+        g. Downloading another person’s marked assignment from a social networking space, and using 
+        their answers and feedback to construct your own answer
+    </string>
+
+    <string name="Q12Intro">
+        This is an introductory level question on /‘Understanding Turnitin/’
+    </string>
+    <string name="aboutTurnitin">
+        You may be instructed by your Module tutor to submit your coursework online and, if so, you
+        will be required to submit your work into a system called Turnitin. \n
+        Turnitin compares the text of your coursework with a variety of online sources.\n
+
+        It produces a report that details the extent to which the text of your coursework has been
+        matched to your own and other people’s previously submitted or published work.
+    </string>
+    <string name="Q12">
+        <b>Scenario</b>: A student has plagiarised material from a variety of sources, as he does
+        not believe that the University will find out.  He submits a draft version of his
+        coursework to Turnitin.\n
+
+        Which of the following sources of material do you think Turnitin will compare his work with?
+    </string>
+    <string name="Q12OptA">
+       a. Web sites
+    </string>
+    <string name="Q12OptB">
+      b. His previously submitted work (final versions)
+    </string>
+    <string name="Q12OptC">
+        c. E-books
+    </string>
+    <string name="Q12OptD">
+       d. Online academic and professional journals
+    </string>
+    <string name="Q12OptE">
+        e. Work submitted by other University students
+    </string>
+    <string name="Q12OptF">
+        f. Student essay banks
+    </string>
+    <string name="Q12OptG">
+        g. His previously submitted work (draft)
+    </string>
+
+    <string name="Q13OptA">
+        a. When pulling together a range of key ideas that you introduced and referenced earlier in
+        the assignment.
+    </string>
+    <string name="Q13OptB">
+        b. When including quotations.
+    </string>
+    <string name="Q13OptC">
+        c. When describing or discussing a theory, model or practice associated with a particular
+        author.
+    </string>
+    <string name="stringD">
+        c. When you are discussing your own ideas, reflections or research findings.
+    </string>
+
+    <string name="Q14Intro">
+        This is an introductory level question on ‘Writing in your own words’.
+    </string>
+    <string name="Q14Instruct">
+        In this question you will be asked to read an extract from an academic source, followed by
+        an example of a student’s essay in which they have attempted to paraphrase the original
+        academic source. You are to decide whether or not the student has paraphrased the original
+        source in an acceptable manner, as well as followed the correct conventions for citing and
+        referencing it.
+    </string>
+    <string name="Q14A">
+        Paraphrasing means to put the original source into your own words.  It is an important
+        skill to develop as it demonstrates that you have understood, rather than simply reproduced,
+        what you have read.\n
+        The original extract is from an article by Dr. Erik Borg published in The Academic Writer,
+        the journal of The Centre for Academic Writing, Coventry University,
+    </string>
+    <string name="Q14Extract">
+        Academic integrity refers to a code of behaviour that is expected of all participants in
+        academic life.  Based on the fundamental value of honesty, the expectations associated with
+        academic integrity are not different from those of life outside the academy, and among them
+        are that participants will not cheat, plagiarise, improperly collude, or falsify research
+        findings. \n
+
+        Plagiarism is the use of other people\’s language and ideas without appropriate credit.
+        Plagiarism is one of the most challenging areas of academic integrity.  \n
+        (Borg 2010: 1).
+    </string>
+    <string name="Q14Reference">
+        List of References \n
+        Borg, E. (2010) \‘What is academic integrity?\’ The Academic Writer 1 (1), 1-2
+    </string>
+    <string name="Q14Paraphrased">
+   <b> Consider the following extract from a student\’s essay:</b>
+        According to Borg, academics need to uphold the values associated with integrity within the
+        scholarly community, in much the same way as they would in their everyday lives (2010: 1).
+        Although he refers to a range of academic crimes, in particular Borg argues that academics
+        should not plagiarise and that plagiarism is a highly complex issue (2010: 1).
+        The complicated nature of plagiarism will now be discussed in more detail. \n
+
+        List of References
+
+        Borg, E. (2010) \‘What is academic integrity?\’  The Academic Writer 1 (1), 1-2
+    </string>
+    <string name="Q14B">
+        <b>Is this statement true or false?  The student has paraphrased the original source in an
+        acceptable manner and correctly followed the conventions for citing and referencing.</b>
+    </string>
+    <string-array name="Tutorials">
+        <item>Plagiarism and its forms</item>
+        <item>Collusion versus collaboration</item>
+        <item>Referencing and Citation</item>
+        <item>Common Knowledge</item>
+        <item>TurnitIn</item>
+    </string-array>
+    <string name="title_activity_tutorials">Tutorials</string>
+</resources>
+ 
+
+
+    

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nden.gapquiz.Question6"
+    android:background="@color/GapBg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/Q6Intro"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q4Intro"
+        android:textColor="#6257a9"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@id/Q6Intro"
+        android:id = "@+id/Q6Instruction"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q5Instruct"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q6Instruction"
+        android:id = "@+id/Q6"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q6"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="True"
+        android:background="#ffffff"
+        android:id="@+id/optTrueQ6"
+        android:layout_below="@+id/Q6"
+        android:layout_alignParentStart="false"
+        android:typeface="serif"
+        android:textSize="13sp"
+        android:padding ="10dp"
+        android:layout_marginBottom="5dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:background = "#ffffff"
+        android:padding="10dp"
+        android:id="@+id/optFalseQ6"
+        android:layout_below="@+id/optTrueQ6"
+        android:layout_alignParentStart ="false"
+        android:typeface="serif"
+        android:textSize="13sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optFalseQ6"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="13sp"
+        android:onClick="buttonOnClickNextQ6"/>
+
+</RelativeLayout>
+</ScrollView>

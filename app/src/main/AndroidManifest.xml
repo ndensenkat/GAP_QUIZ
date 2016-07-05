@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nden.gapquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutGap"
+            android:label="@string/title_activity_about_gap"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartQuiz"
+            android:label="@string/title_activity_start_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question1"
+            android:label="@string/title_activity_question1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question2"
+            android:label="@string/title_activity_question2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question3"
+            android:label="@string/title_activity_question3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Question4" />
+        <activity android:name=".Question5" />
+        <activity android:name=".Question6" />
+        <activity android:name=".Question7" />
+        <activity android:name=".Question8" />
+        <activity android:name=".Question9" />
+        <activity android:name=".Question10" />
+        <activity
+            android:name=".Question11"
+            android:label="@string/title_activity_question11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Question12" />
+        <activity android:name=".Question13" />
+        <activity android:name=".Question14" />
+        <activity
+            android:name=".Tutorials"
+            android:label="@string/title_activity_tutorials"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

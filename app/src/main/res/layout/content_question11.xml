@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nden.gapquiz.Question11"
+    tools:showIn="@layout/activity_question11"
+    android:background="@color/GapBg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/Q11Intro"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_activity_question1"
+        android:textColor="#6257a9"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@id/Q11Intro"
+        android:id = "@+id/Q11Instruction"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q11Instruct"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q11Instruction"
+        android:id = "@+id/Q11"
+        android:layout_marginBottom ="20dp"
+        android:text="@string/Q11"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptA"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11A"
+        android:layout_below="@+id/Q11"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11optB"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11B"
+        android:layout_below="@+id/Q11OptA"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptC"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11C"
+        android:layout_below="@+id/Q11optB"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptD"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11C"
+        android:layout_below="@+id/Q11OptC"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptE"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11E"
+        android:layout_below="@+id/Q11OptD"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptF"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11F"
+        android:layout_below="@+id/Q11OptE"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q11OptG"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q11G"
+        android:layout_below="@+id/Q11OptF"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q11OptG"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="13dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="13sp"
+        android:background="@color/button_material_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_marginRight="13dp"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="13sp"
+        android:background="@color/button_material_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="13sp"
+        android:onClick="buttonOnClickNextQ11"
+        android:background="@color/button_material_light" />
+</RelativeLayout>
+</ScrollView>

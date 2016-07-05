@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/GapBg"
+    tools:context="com.example.nden.gapquiz.Question12">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/source"
+        android:layout_marginTop="10dp"
+        android:text="@string/source"
+        android:textStyle="italic|bold"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#6257a9"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/Q12Intro"
+        android:layout_below="@id/source"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q12Intro"
+        android:textColor="#6257a9"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q12Intro"
+        android:id = "@+id/Q12About"
+        android:layout_marginBottom ="20dp"
+        android:text="@string/aboutTurnitin"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q12About"
+        android:id = "@+id/Q12"
+        android:layout_marginBottom ="20dp"
+        android:text="@string/Q12"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptA"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptA"
+        android:layout_below="@+id/Q12"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptB"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptB"
+        android:layout_below="@+id/Q12OptA"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptC"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptC"
+        android:layout_below="@+id/Q12OptB"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptD"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptD"
+        android:layout_below="@+id/Q12OptC"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptE"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptE"
+        android:layout_below="@+id/Q12OptD"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptF"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptF"
+        android:layout_below="@+id/Q12OptE"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q12OptG"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/Q12OptG"
+        android:layout_below="@+id/Q12OptF"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q12OptG"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="13dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="14sp"
+        android:background="@color/button_material_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_marginRight="13dp"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="14sp"
+        android:background="@color/button_material_light" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="14sp"
+        android:onClick="buttonOnClickNextQ12"
+        android:background="@color/button_material_light" />
+
+</RelativeLayout>
+</ScrollView>

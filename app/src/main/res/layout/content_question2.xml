@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nden.gapquiz.Question2"
+    tools:showIn="@layout/activity_question2"
+    android:background="@color/GapBg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/titleQuestion2"
+        android:layout_marginTop="20dp"
+        android:text="@string/Q2Intro"
+        android:textStyle="italic|bold"
+        android:textSize="13sp"
+        android:textColor="#6257a9"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id = "@+id/InstructionQ2"
+        android:layout_below="@id/titleQuestion2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q2Instruct"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InstructionQ2"
+        android:id = "@+id/Q2"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q2"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="True"
+        android:background="#ffffff"
+        android:id="@+id/radioTrue"
+        android:layout_below="@+id/Q2"
+        android:layout_alignParentStart="false"
+        android:typeface="serif"
+        android:textSize="13sp"
+        android:padding ="10dp"
+        android:layout_marginBottom="5dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="False"
+        android:background = "#ffffff"
+        android:padding="10dp"
+        android:id="@+id/radioFalse"
+        android:layout_below="@+id/radioTrue"
+        android:layout_alignParentStart="false"
+        android:typeface="serif"
+        android:textSize="13sp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioFalse"
+        android:layout_marginEnd="5dp"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkAnswerQ2"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswerQ2"
+        android:layout_marginEnd="5dp"
+        android:layout_alignTop="@+id/checkAnswerQ2"
+        android:layout_toEndOf="@+id/checkAnswerQ2"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextQ2"
+        android:layout_alignBottom="@+id/showAnswerQ2"
+        android:layout_toEndOf="@+id/showAnswerQ2"
+        android:onClick="buttonOnclickNextQ2"
+        android:textSize="13sp"/>
+
+</RelativeLayout>
+</ScrollView>
+
+

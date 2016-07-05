@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nden.gapquiz.Question8"
+    android:background="@color/GapBg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/Q8Intro"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q7Intro"
+        android:textColor="#6257a9"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@id/Q8Intro"
+        android:id = "@+id/Q8Instruction"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q8Instruct"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q8Instruction"
+        android:id = "@+id/Q8"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q8"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q8OptA"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optAQ8"
+        android:layout_below="@+id/Q8"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q8OptB"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optBQ8"
+        android:layout_below="@+id/Q8OptA"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q8OptC"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optCQ8"
+        android:layout_below="@+id/Q8OptB"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q8OptD"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optDQ8"
+        android:layout_below="@+id/Q8OptC"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q8OptE"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optEQ8"
+        android:layout_below="@+id/Q8OptD"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q8OptE"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="13sp"
+        android:onClick="buttonOnClickNextQ8"/>
+
+</RelativeLayout>
+</ScrollView>

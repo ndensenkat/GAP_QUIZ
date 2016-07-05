@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/GapBg"
+    tools:context="com.example.nden.gapquiz.Question10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id = "@+id/Q10Instruction"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q10Instruct"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/GapBg"
+        android:id="@+id/concepts"
+        android:layout_below="@id/Q10Instruction">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="#ffffff">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="collaboration"
+                android:id="@+id/collaboration1"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collusion"
+                android:id="@+id/button"
+                android:layout_alignTop="@+id/collaboration1"
+                android:layout_toEndOf="@+id/collaboration1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reference"
+                android:layout_marginRight="50dp"
+                android:id="@+id/reference1"
+                android:layout_below="@id/collaboration1"
+                android:layout_alignStart="@id/collaboration1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plagiarism"
+                android:id="@+id/button3"
+                android:layout_below="@+id/collaboration1"
+                android:layout_toEndOf="@+id/reference1" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Knowledge"
+                android:id="@+id/button2"
+                android:layout_below="@id/reference1"
+                android:layout_alignStart="@id/reference1"/>
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/concepts"
+        android:id = "@+id/Q10A"
+        android:text="@string/Q10A"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conceptA"
+        android:layout_below="@+id/Q10A"
+        android:background="#ffffff"
+       android:layout_marginLeft="10dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conceptA"
+        android:id = "@+id/Q10B"
+        android:text="@string/Q10B"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conceptB"
+        android:layout_below="@+id/Q10B"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conceptB"
+        android:id = "@+id/Q10C"
+        android:text="@string/Q10C"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conceptC"
+        android:layout_below="@+id/Q10C"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conceptC"
+        android:id = "@+id/Q10D"
+        android:text="@string/Q10D"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conceptD"
+        android:layout_below="@+id/Q10D"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conceptD"
+        android:id = "@+id/Q10E"
+        android:text="@string/Q10E"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/conceptE"
+        android:layout_below="@+id/Q10E"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conceptE"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="13sp"
+        android:onClick="buttonOnClickNextQ10"/>
+
+</RelativeLayout>
+</ScrollView>

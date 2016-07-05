@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nden.gapquiz.Question7">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sourceQ7"
+        android:layout_marginTop="10dp"
+        android:text="@string/source"
+        android:textStyle="italic|bold"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#6257a9"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/Q7Intro"
+        android:layout_below="@id/sourceQ7"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q7Intro"
+        android:textColor="#6257a9"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@id/Q7Intro"
+        android:id = "@+id/Q7Instruction"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q7Instruct"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Q7Instruction"
+        android:id = "@+id/Q7"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Q7"
+        android:textSize="13sp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#160101"
+        android:typeface="serif" />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptA"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optAQ7"
+        android:layout_below="@+id/Q7"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptB"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optBQ7"
+        android:layout_below="@+id/Q7OptA"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptC"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optCQ7"
+        android:layout_below="@+id/Q7OptB"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptD"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optDQ7"
+        android:layout_below="@+id/Q7OptC"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptE"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optEQ7"
+        android:layout_below="@+id/Q7OptD"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/Q7OptF"
+        android:textSize="13sp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/optFQ7"
+        android:layout_below="@+id/Q7OptE"
+        android:lineSpacingExtra="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q7OptF"
+        android:text="check \n Answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW \n ANSWER"
+        android:id="@+id/showAnswer"
+        android:layout_alignTop="@+id/checkAnswer"
+        android:layout_toEndOf="@+id/checkAnswer"
+        android:textSize="13sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextActivity"
+        android:layout_alignBottom="@+id/showAnswer"
+        android:layout_toEndOf="@+id/showAnswer"
+        android:textSize="13sp"
+        android:onClick="buttonOnClickNextQ7"/>
+
+</RelativeLayout>
+</ScrollView>
