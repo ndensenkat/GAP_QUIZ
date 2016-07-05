@@ -148,9 +148,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public DbHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version)
     {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-        SQLiteDatabase db = null;
-
-        doesTableExist(db, CREATE_MULTIPLE_CHOICE_ANSWER_TABLE);
+        
     }
 
 
@@ -511,16 +509,6 @@ public class DbHelper extends SQLiteOpenHelper {
         else return false;
     }
 
-    public boolean doesTableExist(SQLiteDatabase db, String tableName) {
-        Cursor cursor = db.rawQuery("select DISTINCT tbl_name from sqlite_master where tbl_name = '" + MULTIPLE_CHOICE_ANSWER_TABLE + "'", null);
 
-        if (cursor != null) {
-            if (cursor.getCount() > 0) {
-                cursor.close();
-                return true;
-            }
-            cursor.close();
-        }
-        return false;
-    }
 }
+
