@@ -427,6 +427,7 @@
         <item>TurnitIn</item>
     </string-array>
     <string name="title_activity_tutorials">Tutorials</string>
+    <string name="register_for_quiz_button">REGISTER FOR QUIZ</string>
 </resources>
  
 
