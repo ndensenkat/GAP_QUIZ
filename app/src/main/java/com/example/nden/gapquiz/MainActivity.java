@@ -61,10 +61,6 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    public void btnOnClick(View v)
-    {
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
