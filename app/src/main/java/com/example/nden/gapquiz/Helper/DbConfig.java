@@ -3,7 +3,7 @@ package com.example.nden.gapquiz.Helper;
 import android.provider.BaseColumns;
 
 /**
- * Created by yemisi on 7/14/16.
+ * Created by nden on 7/14/16.
  */
 public class DbConfig {
 
