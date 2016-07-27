@@ -21,6 +21,7 @@ import com.example.nden.gapquiz.model.UserScore;
 /**
  * Created by Nden on 18/06/2016.
  */
+
 public class DbHelper extends SQLiteOpenHelper {
 
     //Database tablesMULTIPLE_CHOICE_ANSWER_TABLE
@@ -154,16 +155,16 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(CREATE_MULTIPLE_CHOICE_ANSWER_TABLE);
-        /*db.execSQL(CREATE_SINGLE_CHOICE_QUESTION_TABLE);
+       /* db.execSQL(CREATE_MULTIPLE_CHOICE_ANSWER_TABLE);
+        db.execSQL(CREATE_SINGLE_CHOICE_QUESTION_TABLE);
         db.execSQL(CREATE_QUIZ_TABLE);
         db.execSQL(CREATE_MULTIPLE_CHOICE_QUESTION_TABLE);
         db.execSQL(CREATE_MULTIPLE_CHOICE_QUESTION_TABLE);
         db.execSQL(CREATE_TRUE_AND_FALSE_ANSWER_TABLE);
         db.execSQL(CREATE_TRUE_FALSE_QUESTION_TABLE);
         db.execSQL(CREATE_TABLE_USER);
-        db.execSQL(CREATE_USER_SCORE_TABLE);*/
-        Log.d("dbhelper", "TABLE CREATED");
+        db.execSQL(CREATE_USER_SCORE_TABLE);
+        Log.d("dbhelper", "TABLE CREATED"); */
     }
 
     @Override

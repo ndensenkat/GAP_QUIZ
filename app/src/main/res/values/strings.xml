@@ -428,6 +428,8 @@
     </string-array>
     <string name="title_activity_tutorials">Tutorials</string>
     <string name="register_for_quiz_button">REGISTER FOR QUIZ</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_login">Login</string>
 </resources>
  
 
