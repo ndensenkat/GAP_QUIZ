@@ -22,7 +22,7 @@ public class DbHelp extends SQLiteOpenHelper{
             DbConfig.DbInit.USER_PASSWORD+" TEXT,"+
             DbConfig.DbInit.USERNAME+" TEXT);";
 
-    public static final String CREATE_USER_SCORE_TABLE = "CREATE TABLE" +
+    /*public static final String CREATE_USER_SCORE_TABLE = "CREATE TABLE" +
             DbConfig.DbInit.TABLE_USER_SCORE + "(" +
             BaseColumns._ID+" INTEGER PRIMARY KEY AUTOINCREMENT," +
             DbConfig.DbInit.SCORE + "INTEGER NOT NULL," +
@@ -127,8 +127,8 @@ public class DbHelp extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(CREATE_USER_TABLE);
         Log.d("DbHelp", "User table created");
-        sqLiteDatabase.execSQL(CREATE_USER_SCORE_TABLE);
-        Log.d("DbHelp", "UserScore table created");
+       // sqLiteDatabase.execSQL(CREATE_USER_SCORE_TABLE);
+       // Log.d("DbHelp", "UserScore table created");
        /* sqLiteDatabase.execSQL(CREATE_MULTIPLE_CHOICE_ANSWER_TABLE);
         sqLiteDatabase.execSQL(CREATE_MULTIPLE_CHOICE_QUESTION_TABLE);
         sqLiteDatabase.execSQL(CREATE_QUIZ_TABLE);
